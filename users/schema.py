@@ -45,4 +45,3 @@ class Query(graphene.AbstractType):
             raise Exception('Not logged in!')
         return user
     
-# ...code
