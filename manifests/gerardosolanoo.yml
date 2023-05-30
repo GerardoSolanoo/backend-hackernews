@@ -16,7 +16,7 @@ spec:
         - image: okteto.dev/gerardosolanoo:latest
           name: gerardosolanoo
           envFrom:
-            - configMapRef:
+          - configMapRef:
             name: gerardosolanoo-config
           livenessProbe:
             httpGet:
