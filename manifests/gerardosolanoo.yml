@@ -13,11 +13,11 @@ spec:
         app: gerardosolanoo
     spec:
       containers:
-        - image: okteto.dev/adsoftsito:latest
+        - image: okteto.dev/gerardosolanoo:latest
           name: gerardosolanoo
           envFrom:
             - configMapRef:
-            name: gerardosolanoo-configmap
+            name: gerardosolanoo-config
           livenessProbe:
             httpGet:
               path: /ht/
