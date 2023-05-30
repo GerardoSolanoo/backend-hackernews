@@ -17,7 +17,7 @@ spec:
           name: gerardosolanoo
           envFrom:
           - configMapRef:
-            name: gerardosolanoo-config
+              name: gerardosolanoo-config
           livenessProbe:
             httpGet:
               path: /ht/
