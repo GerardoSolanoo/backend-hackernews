@@ -5,9 +5,9 @@ metadata:
  labels:
    app: postgres
 data:
- PROD_SECRET_KEY: i-love-adsoftsito-dev
- PROD_DATABASE: ***
- PROD_USER: ***
- PROD_PASSWORD: ****
- PROD_HOST: ****
+ PROD_SECRET_KEY: i-love-ramen
+ PROD_DATABASE: jhkxbkmj
+ PROD_USER: jhkxbkmj
+ PROD_PASSWORD: yd3hzUJXEKfpBkeHu9B51roeh0ewJDGb
+ PROD_HOST: kashin.db.elephantsql.com 
  PROD_PORT: "5432"
